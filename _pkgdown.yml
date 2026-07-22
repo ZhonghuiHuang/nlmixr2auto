@@ -1,0 +1,30 @@
+url: https://zhonghuihuang.github.io/nlmixr2auto/
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: flatly
+
+development:
+  mode: release
+
+navbar:
+  left:
+    - text: Home
+      href: index.html
+
+    - text: Functions
+      href: reference/index.html
+
+    - text: nlmixr2autoinit
+      href: https://init.nlmixr2auto.org/
+
+  right:
+    - icon: fab fa-github
+      href: https://github.com/ZhonghuiHuang/nlmixr2auto
+      aria-label: GitHub
+
+home:
+  title: nlmixr2auto
+  description: >
+    Automated model development tools for the nlmixr2 ecosystem.

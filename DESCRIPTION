@@ -12,7 +12,7 @@ Description: Automated population pharmacokinetic modeling framework for
     tabu search, and stepwise procedures for automated model selection
     and parameter estimation within the nlmixr2 ecosystem.
 License: GPL (>= 3)
-URL: https://github.com/ucl-pharmacometrics/nlmixr2auto
+URL: https://github.com/ucl-pharmacometrics/nlmixr2auto, https://zhonghuihuang.github.io/nlmixr2auto/, https://nlmixr2auto.org
 BugReports: https://github.com/ucl-pharmacometrics/nlmixr2auto/issues
 Depends:
     R (>= 4.1.0),
