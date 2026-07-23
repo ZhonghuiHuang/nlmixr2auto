@@ -24,7 +24,7 @@ fitness(
 - fit:
 
   Data frame. Model summary from tools such as
-  [`get.mod.lst()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/get.mod.lst.md),
+  [`get.mod.lst()`](https://nlmixr2auto.org/reference/get.mod.lst.md),
   with parameter estimates and diagnostics.
 
 - dat:
@@ -36,7 +36,7 @@ fitness(
 - penalty.control:
 
   List created using
-  [`penaltyControl()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/penaltyControl.md),
+  [`penaltyControl()`](https://nlmixr2auto.org/reference/penaltyControl.md),
   including:
 
   penalty.value
@@ -51,7 +51,7 @@ fitness(
   bounds
 
   :   List of parameter lower/upper bounds, typically from
-      [`param.bounds()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/param.bounds.md).
+      [`param.bounds()`](https://nlmixr2auto.org/reference/param.bounds.md).
 
   thresholds
 
@@ -84,8 +84,8 @@ A data frame extending fit with the following:
 
 ## See also
 
-[`penaltyControl()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/penaltyControl.md),
-[`param.bounds()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/param.bounds.md).
+[`penaltyControl()`](https://nlmixr2auto.org/reference/penaltyControl.md),
+[`param.bounds()`](https://nlmixr2auto.org/reference/param.bounds.md).
 
 ## Author
 
@@ -171,7 +171,7 @@ fit <- nlmixr2est::nlmixr2(pheno, pheno_sd, "saem", control = list(print = 0),
 #>  
 #> ✔ done
 #> → compress origData in nlmixr2 object, save 34224
-#> → compress parHistData in nlmixr2 object, save 7136
+#> → compress parHistData in nlmixr2 object, save 7200
 #> → compress phiM in nlmixr2 object, save 1021696
 #>  
 #>  
@@ -202,11 +202,11 @@ fit <- nlmixr2est::nlmixr2(pheno, pheno_sd, "saem", control = list(print = 0),
 Store. <- get.mod.lst(fit.s = fit, 1)
  fitness(fit = Store.,dat = pheno_sd)
 #>   model.num        current.time      AIC      BIC    OBJFV        ll npar
-#> 1         1 2026-07-22 22:05:53 986.1912 1004.452 689.3203 -487.0956    6
+#> 1         1 2026-07-23 00:00:48 986.1912 1004.452 689.3203 -487.0956    6
 #>   model.covMethod model.message model.time.setup model.time.covariance
-#> 1          linFim                     0.03599741             0.0150114
+#> 1          linFim                     0.03628666            0.01501889
 #>   model.time.algorithm model.time.optimize model.time.table model.time.compress
-#> 1                8.983          4.5399e-05            3.268               0.119
+#> 1               11.244          4.2784e-05            3.079               0.118
 #>   model.time.other thetaka thetacl thetavc thetavp thetavp2 thetaq thetaq2
 #> 1               NA      NA      NA      NA      NA       NA     NA      NA
 #>   thetavmax thetakm thetaD2 thetaF1 thetaF2 thetatlag thetamtt thetan thetabio

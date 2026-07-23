@@ -43,10 +43,10 @@ parameters (eta.vmax, eta.cl).
 
 ## See also
 
-[mod.run](https://zhonghuihuang.github.io/nlmixr2auto/reference/mod.run.md)
-for the main function that uses these configurations.
-[parseParams](https://zhonghuihuang.github.io/nlmixr2auto/reference/parseParams.md)
-for parameter parsing using configurations.
+[mod.run](https://nlmixr2auto.org/reference/mod.run.md) for the main
+function that uses these configurations.
+[parseParams](https://nlmixr2auto.org/reference/parseParams.md) for
+parameter parsing using configurations.
 
 ## Author
 

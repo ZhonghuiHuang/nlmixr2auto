@@ -66,8 +66,8 @@ Key rules:
 
 ## See also
 
-[`spaceConfig()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/spaceConfig.md),
-[`parseParams()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/parseParams.md)
+[`spaceConfig()`](https://nlmixr2auto.org/reference/spaceConfig.md),
+[`parseParams()`](https://nlmixr2auto.org/reference/parseParams.md)
 
 ## Author
 

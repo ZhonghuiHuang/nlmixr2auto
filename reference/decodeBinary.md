@@ -76,8 +76,8 @@ For "custom", the categorical output order is:
 
 ## See also
 
-[`.twoBitCode`](https://zhonghuihuang.github.io/nlmixr2auto/reference/dot-twoBitCode.md),
-[`encodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/encodeBinary.md)
+[`.twoBitCode`](https://nlmixr2auto.org/reference/dot-twoBitCode.md),
+[`encodeBinary`](https://nlmixr2auto.org/reference/encodeBinary.md)
 
 ## Author
 

@@ -49,9 +49,9 @@ A list with two components:
 For each neighbor, both the original (pre-validation) and the validated
 (post-validation) codes are retained. This allows downstream functions
 (e.g.
-[`detect_move()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/detect_move.md))
-to distinguish between the intended primary modification and any
-secondary adjustments introduced by validation.
+[`detect_move()`](https://nlmixr2auto.org/reference/detect_move.md)) to
+distinguish between the intended primary modification and any secondary
+adjustments introduced by validation.
 
 Optionally, the function can restrict the number of neighbors by random
 sampling (candidate list strategy).

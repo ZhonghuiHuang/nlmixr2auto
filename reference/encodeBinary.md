@@ -100,8 +100,8 @@ the default 24-parameter layout is used:
 
 ## See also
 
-[`.twoBitCode`](https://zhonghuihuang.github.io/nlmixr2auto/reference/dot-twoBitCode.md),
-[`decodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/decodeBinary.md)
+[`.twoBitCode`](https://nlmixr2auto.org/reference/dot-twoBitCode.md),
+[`decodeBinary`](https://nlmixr2auto.org/reference/decodeBinary.md)
 
 ## Author
 

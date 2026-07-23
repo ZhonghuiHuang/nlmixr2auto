@@ -34,7 +34,7 @@ step_rv(
 
   A named integer vector specifying the starting model code. If NULL, a
   base model is generated using
-  [`base_model()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/base_model.md).
+  [`base_model()`](https://nlmixr2auto.org/reference/base_model.md).
 
 - search.space:
 
@@ -106,9 +106,9 @@ Fitness values obtained during estimation.
 
 ## See also
 
-[`mod.run`](https://zhonghuihuang.github.io/nlmixr2auto/reference/mod.run.md),
-[`base_model`](https://zhonghuihuang.github.io/nlmixr2auto/reference/base_model.md),
-[`penaltyControl`](https://zhonghuihuang.github.io/nlmixr2auto/reference/penaltyControl.md)
+[`mod.run`](https://nlmixr2auto.org/reference/mod.run.md),
+[`base_model`](https://nlmixr2auto.org/reference/base_model.md),
+[`penaltyControl`](https://nlmixr2auto.org/reference/penaltyControl.md)
 
 ## Author
 
@@ -134,12 +134,12 @@ Zhonghui Huang
     saem.control = nlmixr2est::saemControl(logLik = TRUE,nBurn=15,nEm=15)
   )
 #> [Success] Model file created:
-#> /tmp/Rtmp4XLpii/mod1.txt
+#> /tmp/RtmpzBHrsN/mod1.txt
 #> SAEM control (core) = niter=15|15; nBurn=15; nEm=15; seed=99; print=1
 #> [Success] Model file created:
-#> /tmp/Rtmp4XLpii/mod2.txt
+#> /tmp/RtmpzBHrsN/mod2.txt
 #> [Success] Model file created:
-#> /tmp/Rtmp4XLpii/mod3.txt
+#> /tmp/RtmpzBHrsN/mod3.txt
 #> $results_table
 #>                   Step
 #> 1 Residual error types
@@ -152,11 +152,11 @@ Zhonghui Huang
 #>                                       Model.name          Model.code  Fitness
 #> 1      bolus_1cmpt_etaCL_FOelim_uncorrelated_add 1,0,0,0,0,0,0,0,0,1 3068.941
 #> 2     bolus_1cmpt_etaCL_FOelim_uncorrelated_prop 1,0,0,0,0,0,0,0,0,2 1934.261
-#> 3 bolus_1cmpt_etaCL_FOelim_uncorrelated_combined 1,0,0,0,0,0,0,0,0,3 1303.125
-#>        AIC      BIC       OFV
-#> 1 3056.767 3068.941 2763.8965
-#> 2 1922.087 1934.261 1629.2162
-#> 3 1277.908 1293.125  983.0373
+#> 3 bolus_1cmpt_etaCL_FOelim_uncorrelated_combined 1,0,0,0,0,0,0,0,0,3 1330.987
+#>        AIC      BIC      OFV
+#> 1 3056.767 3068.941 2763.896
+#> 2 1922.087 1934.261 1629.216
+#> 3 1305.770 1320.987 1010.899
 #> 
 #> $best_code
 #> no.cmpt  eta.km  eta.vc  eta.vp eta.vp2   eta.q  eta.q2      mm   mcorr      rv 
@@ -168,9 +168,9 @@ Zhonghui Huang
 #>                                                  Penalty.terms
 #> 3 rse, theta, covariance, shrinkage, omega, correlation, sigma
 #>                                       Model.name          Model.code  Fitness
-#> 3 bolus_1cmpt_etaCL_FOelim_uncorrelated_combined 1,0,0,0,0,0,0,0,0,3 1303.125
-#>        AIC      BIC      OFV
-#> 3 1277.908 1293.125 983.0373
+#> 3 bolus_1cmpt_etaCL_FOelim_uncorrelated_combined 1,0,0,0,0,0,0,0,0,3 1330.987
+#>       AIC      BIC      OFV
+#> 3 1305.77 1320.987 1010.899
 #> 
 # }
 ```

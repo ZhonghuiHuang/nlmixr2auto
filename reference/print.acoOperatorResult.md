@@ -25,7 +25,7 @@ Invisibly returns x.
 
 ## See also
 
-[`aco.operator`](https://zhonghuihuang.github.io/nlmixr2auto/reference/aco.operator.md)
+[`aco.operator`](https://nlmixr2auto.org/reference/aco.operator.md)
 
 ## Author
 

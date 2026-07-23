@@ -90,18 +90,18 @@ fit <- nlmixr2est::nlmixr2(pheno, pheno_sd, est="saem", nlmixr2est::saemControl(
 #> → Calculating residuals/tables
 #> ✔ done
 #> → compress origData in nlmixr2 object, save 34224
-#> → compress parHistData in nlmixr2 object, save 7136
+#> → compress parHistData in nlmixr2 object, save 7200
 #> → compress phiM in nlmixr2 object, save 1021696
 
 # Extract model results
 model_results <- get.mod.lst(fit,1)
 print(model_results)
 #>   model.num        current.time AIC BIC OBJFV ll npar model.covMethod
-#> 1         1 2026-07-22 22:06:05  NA  NA    NA NA   NA          linFim
+#> 1         1 2026-07-23 00:01:01  NA  NA    NA NA   NA          linFim
 #>   model.message model.time.setup model.time.covariance model.time.algorithm
-#> 1                     0.02756716            0.01300389                9.102
+#> 1                      0.0288852             0.0140033                9.879
 #>   model.time.optimize model.time.table model.time.compress model.time.other
-#> 1                  NA            0.096               0.109        0.8614289
+#> 1                  NA            0.087               0.114        0.7891115
 #>   thetaka thetacl thetavc thetavp thetavp2 thetaq thetaq2 thetavmax thetakm
 #> 1      NA      NA      NA      NA       NA     NA      NA        NA      NA
 #>   thetaD2 thetaF1 thetaF2 thetatlag thetamtt thetan thetabio rseka rsecl rsevc

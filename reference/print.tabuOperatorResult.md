@@ -25,4 +25,4 @@ Invisibly returns x.
 
 ## See also
 
-[`tabu.operator`](https://zhonghuihuang.github.io/nlmixr2auto/reference/tabu.operator.md)
+[`tabu.operator`](https://nlmixr2auto.org/reference/tabu.operator.md)

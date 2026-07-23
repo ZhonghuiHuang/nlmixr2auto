@@ -19,7 +19,7 @@ parseParams(string, config)
 - config:
 
   List object returned by
-  [`spaceConfig()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/spaceConfig.md),
+  [`spaceConfig()`](https://nlmixr2auto.org/reference/spaceConfig.md),
   containing parameter definitions and dependencies
 
 ## Value
@@ -46,8 +46,8 @@ This function performs three main operations:
 
 ## See also
 
-[`spaceConfig()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/spaceConfig.md),
-[`mod.run()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/mod.run.md)
+[`spaceConfig()`](https://nlmixr2auto.org/reference/spaceConfig.md),
+[`mod.run()`](https://nlmixr2auto.org/reference/mod.run.md)
 
 ## Author
 

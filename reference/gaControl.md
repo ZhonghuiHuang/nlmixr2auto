@@ -1,7 +1,7 @@
 # Control parameters for genetic algorithm
 
 Creates a list of control settings for the
-[`ga.operator()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/ga.operator.md)
+[`ga.operator()`](https://nlmixr2auto.org/reference/ga.operator.md)
 function.
 
 ## Usage
@@ -55,9 +55,9 @@ A named list containing all GA control parameters.
 
 ## See also
 
-[`ga.operator`](https://zhonghuihuang.github.io/nlmixr2auto/reference/ga.operator.md),
-[`rank_new`](https://zhonghuihuang.github.io/nlmixr2auto/reference/rank_new.md),
-[`runlocal`](https://zhonghuihuang.github.io/nlmixr2auto/reference/runlocal.md)
+[`ga.operator`](https://nlmixr2auto.org/reference/ga.operator.md),
+[`rank_new`](https://nlmixr2auto.org/reference/rank_new.md),
+[`runlocal`](https://nlmixr2auto.org/reference/runlocal.md)
 
 ## Author
 

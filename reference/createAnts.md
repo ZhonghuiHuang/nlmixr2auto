@@ -93,8 +93,8 @@ of -1.
 
 ## See also
 
-[`initNodeList`](https://zhonghuihuang.github.io/nlmixr2auto/reference/initNodeList.md),
-[`aco.operator`](https://zhonghuihuang.github.io/nlmixr2auto/reference/aco.operator.md)
+[`initNodeList`](https://nlmixr2auto.org/reference/initNodeList.md),
+[`aco.operator`](https://nlmixr2auto.org/reference/aco.operator.md)
 
 ## Author
 

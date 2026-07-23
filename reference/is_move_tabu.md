@@ -15,7 +15,7 @@ is_move_tabu(move, tabu_list, policy = c("attribute", "move"))
 - move:
 
   A list as returned by
-  [`detect_move`](https://zhonghuihuang.github.io/nlmixr2auto/reference/detect_move.md),
+  [`detect_move`](https://nlmixr2auto.org/reference/detect_move.md),
   containing `element`, `from`, and `to`.
 
 - tabu_list:

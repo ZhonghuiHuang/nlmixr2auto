@@ -149,10 +149,10 @@ pheno <- function() {
 #> 
 #> ── Time (sec $time): ──
 #> 
-#>              setup covariance preprocess configure saem postprocess table
-#> elapsed 0.03936395 0.01400654      0.021      0.02 3.88       0.428 0.061
-#>         compress   other
-#> elapsed     0.05 1.01063
+#>              setup covariance preprocess configure  saem postprocess table
+#> elapsed 0.04025946 0.01300355      0.023     0.021 4.617       0.417 0.063
+#>         compress    other
+#> elapsed    0.054 1.006737
 #> 
 #> ── Population Parameters ($parFixed or $parFixedDf): ──
 #> 

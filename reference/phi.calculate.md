@@ -111,8 +111,8 @@ The update proceeds as follows:
 
 ## See also
 
-[initNodeList](https://zhonghuihuang.github.io/nlmixr2auto/reference/initNodeList.md),
-[rank_new](https://zhonghuihuang.github.io/nlmixr2auto/reference/rank_new.md)
+[initNodeList](https://nlmixr2auto.org/reference/initNodeList.md),
+[rank_new](https://nlmixr2auto.org/reference/rank_new.md)
 
 ## Author
 

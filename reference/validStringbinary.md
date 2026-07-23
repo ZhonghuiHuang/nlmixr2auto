@@ -46,12 +46,11 @@ GA version a thin wrapper around the categorical validator.
 
 ## See also
 
-[`validStringcat`](https://zhonghuihuang.github.io/nlmixr2auto/reference/validStringcat.md)
+[`validStringcat`](https://nlmixr2auto.org/reference/validStringcat.md)
 for categorical validation used by ACO/TS.
-[`decodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/decodeBinary.md)
-and
-[`encodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/encodeBinary.md)
-for encoding conversions.
+[`decodeBinary`](https://nlmixr2auto.org/reference/decodeBinary.md) and
+[`encodeBinary`](https://nlmixr2auto.org/reference/encodeBinary.md) for
+encoding conversions.
 
 ## Author
 

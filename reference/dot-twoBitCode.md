@@ -63,8 +63,8 @@ The helper supports two modes:
 
 ## See also
 
-[`decodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/decodeBinary.md),
-[`encodeBinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/encodeBinary.md)
+[`decodeBinary`](https://nlmixr2auto.org/reference/decodeBinary.md),
+[`encodeBinary`](https://nlmixr2auto.org/reference/encodeBinary.md)
 
 ## Author
 

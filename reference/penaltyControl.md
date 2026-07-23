@@ -66,8 +66,8 @@ Binary and step-wise penalty procedures are supported.
 
 ## See also
 
-[`param.bounds()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/param.bounds.md),
-[`fitness()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/fitness.md).
+[`param.bounds()`](https://nlmixr2auto.org/reference/param.bounds.md),
+[`fitness()`](https://nlmixr2auto.org/reference/fitness.md).
 
 ## Author
 

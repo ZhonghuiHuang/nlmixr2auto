@@ -8,7 +8,7 @@ Constructs a parameter table for nlmixr2 model fitting. It supports:
   [`getPPKinits()`](https://rdrr.io/pkg/nlmixr2autoinit/man/getPPKinits.html).
 
 - Fallback to a default parameter table created by
-  [`initialize_param_table()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/initialize_param_table.md).
+  [`initialize_param_table()`](https://nlmixr2auto.org/reference/initialize_param_table.md).
 
 ## Usage
 
@@ -82,7 +82,7 @@ values (e.g. log(0) or `NA`) with `log(0.01)` for numerical stability.
 ## See also
 
 [`getPPKinits`](https://rdrr.io/pkg/nlmixr2autoinit/man/getPPKinits.html),
-[`initialize_param_table`](https://zhonghuihuang.github.io/nlmixr2auto/reference/initialize_param_table.md)
+[`initialize_param_table`](https://nlmixr2auto.org/reference/initialize_param_table.md)
 
 ## Author
 

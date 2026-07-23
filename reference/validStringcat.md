@@ -47,11 +47,11 @@ validStringbinary()).
 
 ## See also
 
-[`validStringbinary`](https://zhonghuihuang.github.io/nlmixr2auto/reference/validStringbinary.md)
+[`validStringbinary`](https://nlmixr2auto.org/reference/validStringbinary.md)
 for the GA wrapper using binary encoding.
-[`parseParams`](https://zhonghuihuang.github.io/nlmixr2auto/reference/parseParams.md)
-for mapping vectors to named parameters.
-[`applyParamDeps`](https://zhonghuihuang.github.io/nlmixr2auto/reference/applyParamDeps.md)
+[`parseParams`](https://nlmixr2auto.org/reference/parseParams.md) for
+mapping vectors to named parameters.
+[`applyParamDeps`](https://nlmixr2auto.org/reference/applyParamDeps.md)
 for constraint enforcement rules.
 
 ## Author

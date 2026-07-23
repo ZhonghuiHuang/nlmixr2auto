@@ -44,8 +44,8 @@ The function returns both:
 - `validated_neighbor`: the corrected version after validation
 
 This allows downstream functions (e.g.
-[`detect_move()`](https://zhonghuihuang.github.io/nlmixr2auto/reference/detect_move.md))
-to identify which parameters were intentionally changed (primary moves),
+[`detect_move()`](https://nlmixr2auto.org/reference/detect_move.md)) to
+identify which parameters were intentionally changed (primary moves),
 while still using a valid model code for evaluation.
 
 ## Author
